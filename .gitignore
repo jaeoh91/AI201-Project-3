@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+takemeter-model/
+*.png
+evaluation_results.json

@@ -1,0 +1,18 @@
+[project]
+name = "takemeter"
+version = "0.1.0"
+description = "TakeMeter — Fine-Tuning DistilBERT for text classification (AI201 Project 3)"
+requires-python = ">=3.12"
+dependencies = [
+    "torch",
+    "transformers",
+    "datasets",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "groq",
+    "python-dotenv",
+    "ipykernel",
+    "jupyter",
+]
