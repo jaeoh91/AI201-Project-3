@@ -2,6 +2,15 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Fine-tuned weights (~770 MB) — produced by running the notebook, not committed
 takemeter-model/
+takemeter-sweep/
+model/
+notebooks/model/
+
+# Ignore stray images, but DO commit the required Milestone 5/6 artifacts
 *.png
+!notebooks/confusion_matrix.png
 evaluation_results.json
+!notebooks/evaluation_results.json

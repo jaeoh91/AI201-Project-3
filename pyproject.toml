@@ -15,4 +15,5 @@ dependencies = [
     "python-dotenv",
     "ipykernel",
     "jupyter",
+    "gradio>=6.19.0",
 ]
